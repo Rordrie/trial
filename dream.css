@@ -1,0 +1,600 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #093d85;
+    cursor: pointer;
+}
+.header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.rodrie img{
+    border: 3px solid blue;
+    border-radius: 50%;   
+}
+.menu ul {
+    display: flex;
+    gap: 4rem;
+    margin-top: 60px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu li a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+    
+}
+.lines{
+    margin-top: 65px;
+    display: none;
+}
+.section1{
+    margin: 0 300px;
+    height: 100px;
+    margin-top: 60px;
+}
+.section1 h3{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section1 p{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section1 h2{
+    margin-top: 15px ;
+    border: 2px solid  aquamarine;
+    border-radius: 20cm;
+    font-size: 1.5rem;
+    justify-content: left;
+    cursor: pointer;
+    color: whitesmoke;
+    width: 230px;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center; 
+}
+.section2{
+    margin: 0 300px;
+}
+.section2 .rodrie2 img{
+    border: 10px solid gainsboro;
+    background-color: white;
+    border-radius: 30%;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+.logo{
+    display: block;
+}
+.logo1{
+    margin-top: 20px;
+display: flex;
+justify-content: center;
+gap: 1.5rem;
+}
+.logo2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.arrow img{
+    border-radius: 50%;
+    border: 3px solid aquamarine;
+    background-color: aquamarine;
+}
+.about{
+    text-align: center;
+    margin: 0 300px;
+}
+.about h3{
+    font-size: 3.5rem;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about p{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    margin-top: 20px;
+
+}
+.about h4{
+    text-align: left;
+    border: 3px solid aquamarine;
+    background-color: black;
+    border-radius: 20cm;
+    width: 140px;
+    height: 50px;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: whitesmoke;
+    
+
+}
+.skill{
+    margin: 0 300px;
+    margin-top: 70px;
+}
+.skill h3{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.list li{
+    list-style: circle;
+    font-size: 2rem;
+    color: aquamarine;
+}
+.project{
+    margin: 0 300px;
+    margin-top: 100px;
+    
+}
+.project h3{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.work{
+    margin-top: 70px;
+    width: 1000px;
+    border: 30px solid #003e9c;
+    background-color: #003e9c;
+}
+.work h2{
+    color: whitesmoke;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.work p{
+    font-size: 1.1rem;
+    color: rgb(201, 196, 196);
+}
+.use{
+    display: flex;
+    justify-content: left;
+    gap: 7rem;
+}
+.html{
+     border: 2px solid aquamarine;
+     width:  100px;
+     padding-left: 15px;
+     border-radius: 10cm;
+     font-size: 1.6rem;
+     margin-top: 30px;
+}
+.css{
+    border: 2px solid aquamarine;
+    width:  90px;
+    padding-left: 15px;
+    border-radius: 10cm;
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+.jsc{
+    border: 2px solid aquamarine;
+    width:  170px;
+    padding-left: 17px;
+    border-radius: 10cm;
+    font-size: 1.6rem;
+    margin-top: 30px;
+}
+.pic img{
+   margin-left: 430px;
+   margin-top: 45px;
+}
+.contact{
+    margin: 40px 300px;
+    text-align: center;
+}
+.contact h3{
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+.contact h5{
+    font-size: 1.4rem;
+    margin-top: 25px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+form{
+    text-align: left;
+}
+form label{
+    display: block;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+form input{
+    margin-top: 15px;
+    border: 3px solid aquamarine;
+    box-shadow:0 0 1.5rem aquamarine;;
+    background-color: #093d85;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+}
+form input:hover{
+    border: 3px solid aqua;
+    background-color: rgb(1, 1, 134);
+}
+form :placeholder-shown{
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+form textarea{
+    margin-top: 15px;
+    border: 3px solid aquamarine;
+    box-shadow:0 0 1.5rem aquamarine;;
+    background-color: #093d85;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+}
+form textarea:hover{
+    border: 3px solid aqua;
+    background-color: #093d85;
+}
+.send{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.footer{
+    height: 200px;
+    background-color: #093d85;
+    text-align: center;
+}
+.footer img{
+    margin-top: 50px;
+}
+.footer p{
+    margin-top: 30px;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+@media screen and (max-width: 1080px){
+	.menu{
+		display: none;
+}
+.lines{
+    display: block;
+}
+.menu ul{
+    display: block;
+    position: relative;
+    left: 100;
+    width: 100%;
+    background-color:#093d85;
+
+}
+.menu li{
+	list-style: none;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size: 5rem;
+    width: 100%;
+    
+}
+	.menu.hide{
+		display: block;   
+	}
+    .section1{
+        text-align: center;
+    }
+    .section1 h3{
+        font-size:3rem;
+    }
+    .section1 h2{
+        margin-left: 70px;
+    }
+    .section2{
+        margin: 100px 25px;
+    }
+    .logo{
+        margin: 0 0;
+    }
+    .about{
+        margin: 0 200px;
+        text-align: center;
+        }
+        .skill{
+            margin: 40px 200px;
+        }
+        .project{
+            margin: 40px 20px;
+        }
+        .work{
+            width: auto;
+        }
+        .contact{
+            margin: 0 200px;
+            text-align: center;
+        }
+        .contact form label {
+            width: 100%;
+        }
+}
+@media screen and (max-width: 768px){
+    body{
+        max-width: 768px;
+        
+    }
+    .rodrie img{
+        height: 100px;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .section1{
+        text-align: center;
+        margin: 0 0;
+    }
+    .section1 h3{
+        font-size:2rem;
+    }
+    .section1 h2{
+        margin-left: 10px;
+    } 
+    .section2{
+        margin: 0 0;
+        text-align: center;
+    }
+    .section2 .rodrie2 img{
+        border: 5px solid gainsboro;
+        background-color: white;
+        border-radius: 30%;
+        margin-top: 100px;
+        margin-left: 50px;
+        height: 250px;
+        width: 250px;
+    }
+    .about{
+       margin: 0 50px; 
+    }
+    .about p{
+        margin-bottom: 20px;
+    }
+    .skill{
+        margin: 0 50px;
+    }
+    .skill h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .skill li{
+        font-size: 1.6rem;
+    }
+    .project{
+        margin: 30 10px;
+    }
+    .project h3{
+        font-size: 1.8rem;
+    }
+    .work{
+        width: auto;
+    }
+    .use{
+        display: flex;
+        justify-content: left;
+        gap: 2rem;
+    }
+    .html{
+        border: 2px solid aquamarine;
+        width:  100px;
+        padding-left: 15px;
+        border-radius: 10cm;
+        font-size: 1.4rem;
+        padding-top: 5px;
+        margin-top: 30px;
+   }
+   .css{
+       border: 2px solid aquamarine;
+       width:  90px;
+       padding-left: 15px;
+       border-radius: 10cm;
+       font-size: 1.4rem;
+       padding-top: 5px;
+       margin-top: 30px;
+   }
+   .jsc{
+       border: 2px solid aquamarine;
+       width:  170px;
+       padding-left: 17px;
+       border-radius: 10cm;
+       font-size: 1.4rem;
+       padding-top: 5px;
+       margin-top: 30px;
+   }
+    .pic img{
+        margin-left: 220px;
+        margin-top: 45px;
+     }
+     .contact{
+        margin: 30px 40px;
+     }
+     .contact h3{
+        font-size: 2rem;
+     }
+     form input{
+        width: 100%;
+     }
+     form textarea{
+        width: 100%;
+     }
+
+}
+
+
+
+
+@media screen and (max-width: 720px){
+    body{
+        max-width: 720px;
+        
+    }
+    .rodrie img{
+        height: 100px;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .section1{
+        text-align: center;
+        margin: 0 0;
+    }
+    .section1 h3{
+        font-size:1.3rem;
+    }
+    .section1 p{
+        font-size: 1.3rem;
+    }
+    .section1 h2{
+        font-size: 1.3rem;
+        margin-left: 10px;
+        width: 200px;
+    } 
+    .section2{
+        margin: 0 0;
+        text-align: center;
+    }
+    .section2 .rodrie2 img{
+        border: 5px solid gainsboro;
+        background-color: white;
+        border-radius: 30%;
+        margin-top: 70px;
+        margin-left: 50px;
+        height: 250px;
+        width: 250px;
+    }
+    .linkedin img{
+        height: 35px;
+    }
+     .instagram img{
+        height: 35px;
+    }
+     .twitter img{
+        height: 35px;
+    }
+     .git img{
+        height: 35px;
+    }
+    .arrow img{
+        height: 35px;
+    }
+    .about{
+       margin: 0 50px; 
+    }
+    .about h3{
+        font-size: 2.5rem;
+    }
+    .about p{
+        margin-bottom: 20px;
+    }
+    .skill{
+        margin: 0 50px;
+    }
+    .skill h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .list li{
+        list-style: circle;
+        font-size: 1.2rem;
+        color: aquamarine;
+    }
+    .project{
+        margin: 30 10px;
+        text-align: center;
+    }
+    .project h3{
+        font-size: 1.8rem;
+    }
+    .work{
+        width: 100%;
+    }
+    .use{
+        display: flex;
+        justify-content: left;
+        gap: 1.2rem;
+    }
+    .html{
+        border: 2px solid aquamarine;
+        width:  100px;
+        padding-left: 1px;
+        border-radius: 10cm;
+        font-size: 1.2rem;
+        padding-top: 2px;
+        margin-top: 30px;
+   }
+   .css{
+       border: 2px solid aquamarine;
+       width:  90px;
+       padding-left: 1px;
+       border-radius: 10cm;
+       font-size: 1.2rem;
+       padding-top: 2px;
+       margin-top: 30px;
+   }
+   .jsc{
+       border: 2px solid aquamarine;
+       width:  170px;
+       padding-left: 1px;
+       border-radius: 10cm;
+       font-size: 1.2rem;
+       padding-top: 2px;
+       margin-top: 30px;
+   }
+    .pic img{
+        margin-left: 10px;
+        margin-top: 45px;
+     }
+     .contact{
+        margin: 30px 40px;
+     }
+     .contact h3{
+        font-size: 1.7rem;
+     }
+     .contact h5{
+        margin-top: 20px;
+     }
+     form input{
+        width: 100%;
+     }
+     form textarea{
+        width: 100%;
+     }
+.footer img{
+    height: 35px;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+}
